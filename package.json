@@ -1,0 +1,25 @@
+{
+    "name": "whisper-language",
+    "displayName": "whisper-language",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "whisper",
+            "aliases": ["whisper-language", "whisper"],
+            "extensions": [".w"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "whisper",
+            "scopeName": "source.whisper",
+            "path": "./syntaxes/whisper.tmLanguage.json"
+        }]
+    }
+}
