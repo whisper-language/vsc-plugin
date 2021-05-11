@@ -3,8 +3,13 @@
     "displayName": "whisper-language",
     "description": "",
     "version": "0.0.1",
+    "publisher": "whisper-language",
+    "repository":"git@github.com:whisper-language/whisper-language.git",
     "engines": {
-        "vscode": "^1.56.0"
+        "vscode": "^1.55.2"
+    },
+    "scripts": {
+        "package":"vsce package"
     },
     "categories": [
         "Programming Languages"
@@ -13,7 +18,7 @@
         "languages": [{
             "id": "whisper",
             "aliases": ["whisper-language", "whisper"],
-            "extensions": [".w"],
+            "extensions": [".whl"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{

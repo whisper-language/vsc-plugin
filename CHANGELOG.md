@@ -1,9 +1,3 @@
-# Change Log
+# 修改日志
 
-All notable changes to the "whisper-language" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+初始化发布测试
